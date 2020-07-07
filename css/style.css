@@ -1,0 +1,53 @@
+.carousel.carousel-animate-slide.carousel-animated{
+    height: 400px;
+}
+.carousel .carousel-container .carousel-item.has-background .is-background {
+    height: 400px;
+}
+.my-divider.is-danger {
+    border: 2px solid;
+    width: 110px;
+    margin: 15px auto;
+    color: #F3FFB0;
+}
+.navbar-item img {
+    width: 100px;
+    max-height: 6.75rem;
+}
+.media-content > .content > p.has-text-centered > img {
+    width: 80px;
+}
+.cartao-session {
+    height: 160px;
+    padding: 28px;
+}
+section.section-hero-text {
+    margin-top: 15px;
+}
+.hero-body {
+    background-color: #F3FFB0;
+}
+.hero.is-primary .title {
+    color: #363636;
+}
+.hero.is-primary .subtitle {
+    color: #363636;
+}
+.button.is-primary:hover {
+    background-color: #fafab0;
+    border-color: transparent;
+    color: #363636;
+}
+a.button.is-primary {
+    background-color: #f4ffb0;
+    color: #363636;
+}
+.footer_end.bottom {
+    background-color: #F3FFB0;
+}
+svg.svg-inline--fa.fa-whatsapp.fa-w-14 {
+    color: #075e54;
+}
+.box {
+    min-height: 210.4px;
+}
