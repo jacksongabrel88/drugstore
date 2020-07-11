@@ -89,3 +89,6 @@ section.hero.farmacia-session > .hero-body {
     border-bottom: 3px solid #f3f3f3;
     padding-top: 32px;
 }
+section.brand-session {
+    padding: 32px 0;
+}
