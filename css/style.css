@@ -38,9 +38,21 @@ section.section-hero-text {
     border-color: transparent;
     color: #363636;
 }
-a.button.is-primary {
+.navbar-item a.button.is-primary {
     background-color: #f4ffb0;
-    color: #363636;
+    color: #f05961;
+    font-size: 20px;
+    transition: 1s all;
+}
+a.button.is-primary:hover {
+    color: #ef2e3e;
+    background-color: #fff112;
+
+}
+div#navbarBasicExample > .navbar-start > a.navbar-item {
+    font-size: 20px;
+    color: #f05961;
+    font-weight: 600;
 }
 .footer_end.bottom {
     background-color: #F3FFB0;
@@ -50,4 +62,11 @@ svg.svg-inline--fa.fa-whatsapp.fa-w-14 {
 }
 .box {
     min-height: 210.4px;
+}
+.action_contact a {
+    font-size: 24px;
+    color: #f05961;
+}
+.action_contact a:hover {
+    color: #ef2e3e;
 }
