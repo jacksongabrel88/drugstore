@@ -8,7 +8,7 @@
     border: 2px solid;
     width: 110px;
     margin: 15px auto;
-    color: #F3FFB0;
+    color: #fff112;
 }
 .navbar-item img {
     width: 100px;
@@ -25,7 +25,7 @@ section.section-hero-text {
     margin-top: 15px;
 }
 .hero-body {
-    background-color: #F3FFB0;
+    background-color: #fff112;
 }
 .hero.is-primary .title {
     color: #363636;
@@ -43,7 +43,7 @@ section.section-hero-text {
     color: #ef2e3e;
     background-color: #fff112;
     font-size: 20px;
-    transition: 1s all;
+    transition: 0.5s all;
 }
 a.button.is-primary:hover {
     background-color: #f4ffb0;
@@ -56,7 +56,7 @@ div#navbarBasicExample > .navbar-start > a.navbar-item {
     font-weight: 600;
 }
 .footer_end.bottom {
-    background-color: #F3FFB0;
+    background-color: #fff112;
 }
 svg.svg-inline--fa.fa-whatsapp.fa-w-14 {
     color: #075e54;
@@ -66,8 +66,11 @@ svg.svg-inline--fa.fa-whatsapp.fa-w-14 {
 }
 .action_contact a {
     font-size: 24px;
-    color: #f05961;
+    color: #ef2e3e;
+    border-color: #ef2e3e;
+    background-color: transparent;  
 }
 .action_contact a:hover {
-    color: #ef2e3e;
+    color: #f05961;
+    border-color: #f05961;
 }
