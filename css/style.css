@@ -74,3 +74,6 @@ svg.svg-inline--fa.fa-whatsapp.fa-w-14 {
     color: #f05961;
     border-color: #f05961;
 }
+footer.footer .column.is-3.has-text-left > img {
+    width: 100px;
+}
