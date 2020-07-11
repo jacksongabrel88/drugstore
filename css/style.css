@@ -22,7 +22,8 @@
     padding: 28px;
 }
 section.section-hero-text {
-    margin-top: 15px;
+    background-color: #f3f3f3;
+    padding-top: 32px;
 }
 .hero-body {
     background-color: #fff112;
@@ -81,4 +82,10 @@ section.foryou-section {
 }
 .has-background.has-text-centered.cartao-session p.title.is-2.has-text-centered+img {
     transform: scale(1.3);
+}
+section.hero.farmacia-session > .hero-body {
+    background-color: #f3f3f3;
+    border-top: 3px solid #f3f3f3;
+    border-bottom: 3px solid #f3f3f3;
+    padding-top: 32px;
 }
