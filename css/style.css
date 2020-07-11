@@ -17,9 +17,8 @@
 .media-content > .content > p.has-text-centered > img {
     width: 80px;
 }
-.cartao-session {
-    height: 160px;
-    padding: 28px;
+.cartao-session {   
+    padding: 32px 0 0;
 }
 section.section-hero-text {
     background-color: #f3f3f3;
