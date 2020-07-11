@@ -48,7 +48,6 @@ section.section-hero-text {
 a.button.is-primary:hover {
     background-color: #f4ffb0;
     color: #f05961;
-
 }
 div#navbarBasicExample > .navbar-start > a.navbar-item {
     font-size: 20px;
@@ -76,4 +75,10 @@ svg.svg-inline--fa.fa-whatsapp.fa-w-14 {
 }
 footer.footer .column.is-3.has-text-left > img {
     width: 100px;
+}
+section.foryou-section {
+    margin-top: 32px;
+}
+.has-background.has-text-centered.cartao-session p.title.is-2.has-text-centered+img {
+    transform: scale(1.3);
 }
