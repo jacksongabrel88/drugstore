@@ -47,25 +47,26 @@ window.onload = function()
 
 function sizeOfThings(){
     
-    var screenWidth = screen.width;
+    // var screenWidth = screen.width;
+    var windowWidth = window.innerWidth;
 
     var banner =  document.getElementById('banner_carousel');
     //console.log(banner);
 
-    if(screen.width>=1440){
+    if(windowWidth>=1440){
         banner.src = "img/banner_drogstore_large_1440.png";
-        console.log(banner.src);
-    }if(screen.width>=1024  && screen.width<1440){
+        console.log(windowWidth);
+    }if(windowWidth>=1024  && windowWidth<1440){
         banner.src = "img/banner_drogstore_large_1024.png";
-        console.log(banner.src);
+        console.log(windowWidth);
         console.log("1024");
-    }if(screen.width>=768  && screen.width<1024){
+    }if(windowWidth>=768  && windowWidth<1024){
         banner.src = "img/banner_drogstore_large_768.png";
-        console.log(banner.src);
+        console.log(windowWidth);
         console.log("768");
-    }if(screen.width>=320  && screen.width<768){
+    }if(windowWidth>=320  && windowWidth<768){
         banner.src = "img/banner_drogstore_large_400.png";
-        console.log(banner.src);
+        console.log(windowWidth);
         console.log("400");
     }
     
