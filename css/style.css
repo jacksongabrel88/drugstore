@@ -1,8 +1,8 @@
-.carousel.carousel-animate-slide.carousel-animated{
+.banner-responsivo {
     height: 400px;
-}
-.carousel .carousel-container .carousel-item.has-background .is-background {
-    height: 400px;
+    width: 100%;
+    background-image: url(../img/banner_drogstore_large_1440.png);
+    background-size: cover;
 }
 .my-divider.is-danger {
     border: 2px solid;
