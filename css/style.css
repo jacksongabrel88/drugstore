@@ -1,7 +1,7 @@
 .banner-responsivo {
     height: 400px;
     width: 100%;
-    background-image: url(../img/banner_drogstore_large_1440.png);
+    background-image: url(../img/banner_drogstore_large_400.png);
     background-size: cover;
 }
 .my-divider.is-danger {
@@ -90,4 +90,24 @@ section.hero.farmacia-session > .hero-body {
 }
 section.brand-session {
     padding: 32px 0;
+}
+@media only screen and (min-width: 1440px) {
+    .banner-responsivo {
+        background-image: url(../img/banner_drogstore_large_1440.png);
+    }
+}
+@media only screen and (max-width: 1024px) {
+    .banner-responsivo {
+        background-image: url(../img/banner_drogstore_large_1024.png);
+    }
+}
+@media only screen and (max-width: 768px) {
+    .banner-responsivo {
+        background-image: url(../img/banner_drogstore_large_768.png);
+    }
+}
+@media only screen and (min-width: 320px) and (max-width: 426px) {
+    .banner-responsivo {
+        background-image: url(../img/banner_drogstore_large_400.png);
+    }
 }
