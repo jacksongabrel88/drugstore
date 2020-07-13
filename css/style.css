@@ -132,6 +132,13 @@ section.empresa-text > .container {
 section.session-contact .column.is-3 .box{
     min-height: 545px;
 }
+section.session-contact iframe {
+    width: 100%;
+}
+section.hero.hero-custom h1.title{
+    font-size: 20px;
+    color:#ef2e3e;
+}
 @media only screen and (min-width: 1440px) {
     .banner-responsivo {
         background-image: url(../img/banner_drogstore_large_1440.png);
