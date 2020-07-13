@@ -1,7 +1,7 @@
 .banner-responsivo {
     height: 400px;
     width: 100%;
-    background-image: url(../img/banner_drogstore_large_400.png);
+    background-image: url(../img/banner_drogstore_large_1440.png);
     background-size: cover;
 }
 .my-divider.is-danger {
@@ -90,6 +90,47 @@ section.hero.farmacia-session > .hero-body {
 }
 section.brand-session {
     padding: 32px 0;
+}
+.navbar-burger {
+    height: 7.25rem;
+    width: 7.25rem;
+}
+.navbar-burger span {
+    width: 32px;
+    height: 2px;
+    left: calc(50% - 10px);
+}
+.navbar-burger span:nth-child(1) {
+    top: calc(48% - 6px);
+}
+.navbar-burger span:nth-child(2) {
+    top: calc(55% - 6px);
+}
+.navbar-burger span:nth-child(3) {
+    top: calc(62% - 6px);
+}
+.navbar-burger.is-active span:nth-child(1) {
+    top: calc(50% - 6px);
+}
+.navbar-burger.is-active span:nth-child(3) {
+    top: calc(50% + 4px);
+}
+.navbar-end > .navbar-item > .buttons {
+    justify-content: center;
+}
+.navbar-link.is-active:not(:focus):not(:hover), a.navbar-item.is-active:not(:focus):not(:hover){
+    background-color: #fafafa;
+}
+section.empresa-text > .container {
+    padding-top: 32px;
+    padding-bottom: 32px;
+}
+.session-contact{
+    margin-top: 32px;
+    margin-bottom: 32px;
+}
+section.session-contact .column.is-3 .box{
+    min-height: 545px;
 }
 @media only screen and (min-width: 1440px) {
     .banner-responsivo {
