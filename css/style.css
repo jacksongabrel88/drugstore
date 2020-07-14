@@ -13,6 +13,7 @@
 .navbar-item img {
     width: 100px;
     max-height: 6.75rem;
+    margin-right: 15px;
 }
 .media-content > .content > p.has-text-centered > img {
     width: 80px;
@@ -138,6 +139,12 @@ section.session-contact iframe {
 section.hero.hero-custom h1.title{
     font-size: 20px;
     color:#ef2e3e;
+}
+p.subtitle.is-6 > a[href*="whatsapp"] {
+    color: #25d366;
+}
+.navbar-brand > a.navbar-item {
+    width: 260px;
 }
 @media only screen and (min-width: 1440px) {
     .banner-responsivo {
