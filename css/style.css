@@ -10,9 +10,8 @@
     color: #fff112;
 }
 .navbar-item img {
-    width: 100px;
+    width: 250px;
     max-height: 6.75rem;
-    margin-right: 15px;
 }
 .media-content > .content > p.has-text-centered > img {
     width: 80px;
@@ -142,20 +141,17 @@ section.hero.hero-custom h1.title{
 p.subtitle.is-6 > a[href*="whatsapp"] {
     color: #25d366;
 }
-.navbar-brand > a.navbar-item {
-    width: 260px;
-}
 .navbar-brand > .navbar-item:hover {
     color: #f05961;
+}
+i.fab.fa-whatsapp {
+    color: #25d366;
 }
 @media only screen and (min-width: 1440px) {
     .banner-responsivo {
         background-image: url(../img/banner_drogstore_large_1440.png);
         background-repeat: no-repeat;
         background-size: cover;
-    }
-    .navbar-brand > a.navbar-item {
-        width: 400px;
     }
 }
 @media only screen and (max-width: 1024px) {
