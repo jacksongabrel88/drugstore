@@ -26,6 +26,9 @@ section.section-hero-text {
 .hero-body {
     background-color: #fff112;
 }
+.hero-body h1.title.has-text-centered {
+    color: #ef2e3e;
+}
 .hero.is-primary .title {
     color: #363636;
 }
