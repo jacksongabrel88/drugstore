@@ -1,8 +1,7 @@
 .banner-responsivo {
-    height: 400px;
+    min-height: 400px;
     width: 100%;
     background-image: url(../img/banner_drogstore_large_1440.png);
-    background-size: cover;
 }
 .my-divider.is-danger {
     border: 2px solid;
@@ -146,23 +145,49 @@ p.subtitle.is-6 > a[href*="whatsapp"] {
 .navbar-brand > a.navbar-item {
     width: 260px;
 }
+.navbar-brand > .navbar-item:hover {
+    color: #f05961;
+}
 @media only screen and (min-width: 1440px) {
     .banner-responsivo {
         background-image: url(../img/banner_drogstore_large_1440.png);
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    .navbar-brand > a.navbar-item {
+        width: 400px;
     }
 }
 @media only screen and (max-width: 1024px) {
     .banner-responsivo {
         background-image: url(../img/banner_drogstore_large_1024.png);
     }
+    .action_contact a {
+        font-size: 20px;
+    }
+    .navbar-brand > a.navbar-item {
+        width: 400px;
+    }
 }
 @media only screen and (max-width: 768px) {
     .banner-responsivo {
         background-image: url(../img/banner_drogstore_large_768.png);
     }
+    .action_contact a {
+        font-size: 24px;
+    }
+    h4.title-brand {
+        font-size: 24px;
+    }
 }
 @media only screen and (min-width: 320px) and (max-width: 426px) {
     .banner-responsivo {
         background-image: url(../img/banner_drogstore_large_400.png);
+    }
+    .navbar-brand > a.navbar-item {
+        width: 260px;
+    }
+    h4.title-brand {
+        font-size: 16px;
     }
 }
