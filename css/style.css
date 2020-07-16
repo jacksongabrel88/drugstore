@@ -147,8 +147,20 @@ p.subtitle.is-6 > a[href*="whatsapp"] {
 .navbar-brand > .navbar-item:hover {
     color: #f05961;
 }
-i.fab.fa-whatsapp {
+i.fab.fa-whatsapp-square {
     color: #25d366;
+}
+a.button.is-primary > strong > img.whatapp_icon {
+    width: 20px;
+    vertical-align: -2px;
+}
+p.subtitle.is-6 .whatapp_icon {
+    width: 20px;
+    vertical-align: -5px;
+}
+.column.is-3.has-text-centered img.whatapp_icon {
+    width: 24px;
+    vertical-align: -5px;
 }
 @media only screen and (min-width: 1440px) {
     .banner-responsivo {
