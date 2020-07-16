@@ -162,6 +162,9 @@ p.subtitle.is-6 .whatapp_icon {
     width: 24px;
     vertical-align: -5px;
 }
+a[href*="instagram"] {
+    color: #e91784;
+}
 @media only screen and (min-width: 1440px) {
     .banner-responsivo {
         background-image: url(../img/banner_drogstore_large_1440.png);
